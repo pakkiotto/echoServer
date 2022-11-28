@@ -1,0 +1,29 @@
+{
+  "name": "echoserver",
+  "version": "1.0.0",
+  "description": "echo server in node js with http module",
+  "main": "echoServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node echoServer.js",
+    "debug": "node --inspect echoServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pakkiotto/echoServer.git"
+  },
+  "keywords": [
+    "nodejs",
+    "server",
+    "javascript"
+  ],
+  "author": "Pakkiotto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pakkiotto/echoServer/issues"
+  },
+  "homepage": "https://github.com/pakkiotto/echoServer#readme",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}
